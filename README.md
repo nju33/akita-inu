@@ -1,16 +1,4 @@
-# bundles
-
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app
-
-## Setup
-
-```sh
-# Install dependencies
-npm install
-
-# Run the bot
-npm start
-```
+# Akita Inu
 
 ## Contributing
 
@@ -20,4 +8,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2018 nju33 <nju33.ki@gmail.com>
+[MIT](LICENSE) © 2018 nju33 <nju33.ki@gmail.com>

@@ -1,0 +1,730 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "const pupa = require('pupa');\n\n/**\n * @typedef {Object} Config\n * @property {Object.<string, Target>} Config.targets それぞれ設定\n */\n/**\n * @typedef {Object} Target\n * @property {string} Target.base bundle先のブランチ名\n * @property {string} [Target.commit_message='Merge branch {triggered_branch} into {base_branch}'] マージコミット時のテンプレート\n * @property {string} [Target.pull_request_title='{triggered_branch}'] プルリクのタイトル\n * @property {string} [Target.pull_request_body=''] プルリクのタイトル\n */\n\nclass Helper {\n\tconstructor(context) {\n\t\tthis.context = context;\n\t}\n\n\tasync existsBranch(branchName) {\n\t\treturn this.context.github.repos\n\t\t\t.getBranch(this.context.repo({branch: `bundle/${branchName}`}))\n\t\t\t.then(() => true)\n\t\t\t.catch(() => false);\n\t}\n\n\tasync getBranch(branchName) {\n\t\treturn this.context.github.repos.getBranch(\n\t\t\tthis.context.repo({branch: branchName})\n\t\t);\n\t}\n\n\tasync createBranch(baseBranchName, branchName) {\n\t\tconst {data: branch} = await this.getBranch(baseBranchName);\n\n\t\tawait this.context.github.gitdata.createReference(\n\t\t\tthis.context.repo({\n\t\t\t\tref: `refs/heads/bundle/${branchName}`,\n\t\t\t\tsha: branch.commit.sha\n\t\t\t})\n\t\t);\n\t}\n}\n\nconst defaultConfig = {\n\t// eslint-disable-next-line camelcase\n\tcommit_message: 'Merge branch {triggered_branch} into {base_branch}',\n\t// eslint-disable-next-line camelcase\n\tpull_request_title: '{triggered_branch}',\n\t// eslint-disable-next-line camelcase\n\tpull_request_body: ''\n};\n\n/**\n * This is the entry point for your Probot App.\n * @param {import('probot').Application} app - Probot's Application class.\n */\nmodule.exports = app => {\n\t/**\n   * `push`イベントが`created`だった時のみ\n   *\n   * 例えば、ブランチが`foo/bar`だった時。\n   * `config.target.foo`が存在すれば、まず`bundle/foo`がないかチェック。\n   * 無ければ`bundle/foo`ブランチを作成し、そこへ`foo/bar`をマージする。\n   * もし、`bundle/foo`のプルリクがない場合は、プルリクを建てる。\n   */\n\tapp.on('push', async context => {\n\t\tif (!context.payload.created) {\n\t\t\treturn;\n\t\t}\n\n\t\tconst {ref} = context.payload.ref;\n\t\tconst bundlingBranchName = ref.replace('refs/heads/', '').split('/')[0];\n\n\t\t/**\n     * @type {Config}\n     */\n\t\tconst config = await context.config('akita-inu.yml', {\n\t\t\ttargets: {}\n\t\t});\n\t\tObject.keys(config.targets).forEach(key => {\n\t\t\tconfig.targets[key] = {...defaultConfig, ...config.targets[key]};\n\t\t});\n\n\t\tif (config.targets[bundlingBranchName] === undefined) {\n\t\t\treturn;\n\t\t}\n\t\tif (config.targets[bundlingBranchName].base === undefined) {\n\t\t\tapp.log.error(`base prop do not exists in the ${bundlingBranchName}`);\n\t\t}\n\n\t\tconst helper = new Helper(context);\n\n\t\tconst {data: triggeredBranch} = await context.github.repos.getBranch(\n\t\t\tcontext.repo({branch: ref})\n\t\t);\n\n\t\tif (!(await helper.existsBranch(bundlingBranchName))) {\n\t\t\tawait helper.createBranch(\n\t\t\t\tconfig.targets[bundlingBranchName].base,\n\t\t\t\tbundlingBranchName\n\t\t\t);\n\t\t}\n\t\tconst {data: bundlingBranch} = await helper.getBranch(\n\t\t\t`bundle/${bundlingBranchName}`\n\t\t);\n\n\t\tif (triggeredBranch.commit.sha !== bundlingBranch.commit.sha) {\n\t\t\tawait context.github.repos.merge(\n\t\t\t\tcontext.repo({\n\t\t\t\t\tbase: `refs/heads/${bundlingBranch.name}`,\n\t\t\t\t\thead: triggeredBranch.commit.sha,\n\t\t\t\t\t// eslint-disable-next-line camelcase\n\t\t\t\t\tcommit_message: pupa(\n\t\t\t\t\t\tconfig.targets[bundlingBranchName].commit_message,\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t// eslint-disable-next-line camelcase\n\t\t\t\t\t\t\ttriggered_branch: bundlingBranchName,\n\t\t\t\t\t\t\t// eslint-disable-next-line camelcase\n\t\t\t\t\t\t\tbase_branch: config.targets[bundlingBranchName].base\n\t\t\t\t\t\t}\n\t\t\t\t\t)\n\t\t\t\t})\n\t\t\t);\n\t\t}\n\n\t\ttry {\n\t\t\tawait context.github.pullRequests.create(\n\t\t\t\tcontext.repo({\n\t\t\t\t\ttitle: pupa(config.targets[bundlingBranchName].pull_request_title, {\n\t\t\t\t\t\t// eslint-disable-next-line camelcase\n\t\t\t\t\t\ttriggered_branch: config.targets[bundlingBranchName].pull_request_title,\n\t\t\t\t\t\t// eslint-disable-next-line camelcase\n\t\t\t\t\t\tbase_branch: config.targets[bundlingBranchName].base\n\t\t\t\t\t}),\n\t\t\t\t\tbody: config.targets[bundlingBranchName].pull_request_body,\n\t\t\t\t\thead: `refs/heads/${bundlingBranch.name}`,\n\t\t\t\t\tbase: `refs/heads/${config.targets[bundlingBranchName].base}`\n\t\t\t\t})\n\t\t\t);\n\t\t} catch (_) {\n\t\t\tapp.log('pull request was already exists');\n\t\t}\n\t});\n};\n",
+    "static": true,
+    "longname": "/Users/nju33/github/akita-inu/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "pupa",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~pupa",
+    "access": "public",
+    "export": false,
+    "importPath": "akita-inu/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "typedef",
+    "name": "Config",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Config",
+    "access": "public",
+    "description": "",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Object.<string, Target>"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "Config.targets",
+        "description": "それぞれ設定"
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Config"
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "typedef",
+    "name": "Target",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~Target",
+    "access": "public",
+    "description": "",
+    "lineNumber": 15,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "Target.base",
+        "description": "bundle先のブランチ名"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'Merge branch {triggered_branch} into {base_branch}'",
+        "defaultRaw": "'Merge branch {triggered_branch} into {base_branch}'",
+        "name": "Target.commit_message",
+        "description": "マージコミット時のテンプレート"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'{triggered_branch}'",
+        "defaultRaw": "'{triggered_branch}'",
+        "name": "Target.pull_request_title",
+        "description": "プルリクのタイトル"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "Target.pull_request_body",
+        "description": "プルリクのタイトル"
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "Target"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "variable",
+    "name": "defaultConfig",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~defaultConfig",
+    "access": "public",
+    "export": false,
+    "importPath": "akita-inu/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 45,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"commit_message\": string, \"pull_request_title\": string, \"pull_request_body\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "# Akita Inu\n\n## Contributing\n\nIf you have suggestions for how bundles could be improved, or want to report a bug, open an issue! We'd love all and any contributions.\n\nFor more, check out the [Contributing Guide](CONTRIBUTING.md).\n\n## License\n\n[MIT](LICENSE) © 2018 nju33 <nju33.ki@gmail.com>\n",
+    "longname": "/Users/nju33/github/akita-inu/README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"akita-inu\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A Probot app\",\n  \"author\": \"nju33 <nju33.ki@gmail.com>\",\n  \"license\": \"ISC\",\n  \"repository\": \"https://github.com/nju33/akita-inu.git\",\n  \"homepage\": \"https://github.com/nju33/akita-inu\",\n  \"bugs\": \"https://github.com/nju33/akita-inu/issues\",\n  \"keywords\": [\n    \"probot\",\n    \"github\",\n    \"probot-app\"\n  ],\n  \"scripts\": {\n    \"doc\": \"esdoc\",\n    \"dev\": \"nodemon\",\n    \"start\": \"probot run ./src/index.js\",\n    \"lint\": \"standard --fix\",\n    \"test\": \"jest && standard\",\n    \"test:watch\": \"jest --watch --notify --notifyMode=change --coverage\"\n  },\n  \"dependencies\": {\n    \"probot\": \"7.0.1\",\n    \"pupa\": \"^1.0.0\"\n  },\n  \"devDependencies\": {\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^5.4.0\",\n    \"eslint-config-xo\": \"^0.24.2\",\n    \"jest\": \"22.4.4\",\n    \"nodemon\": \"1.18.3\",\n    \"smee-client\": \"1.0.2\",\n    \"standard\": \"10.0.3\"\n  },\n  \"engines\": {\n    \"node\": \">= 8.3.0\"\n  },\n  \"standard\": {\n    \"env\": [\n      \"jest\"\n    ]\n  },\n  \"nodemonConfig\": {\n    \"exec\": \"npm start\",\n    \"watch\": [\n      \".env\",\n      \"./src\"\n    ]\n  }\n}\n",
+    "longname": "/Users/nju33/github/akita-inu/package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

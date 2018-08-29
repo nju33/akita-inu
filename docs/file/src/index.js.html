@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/index.js | akita-inu</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="A Probot app"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="akita-inu"><meta property="twitter:description" content="A Probot app"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/nju33/akita-inu.git"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Config">Config</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Target">Target</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/index.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">const pupa = require(&apos;pupa&apos;);
+
+/**
+ * @typedef {Object} Config
+ * @property {Object.&lt;string, Target&gt;} Config.targets &#x305D;&#x308C;&#x305E;&#x308C;&#x8A2D;&#x5B9A;
+ */
+/**
+ * @typedef {Object} Target
+ * @property {string} Target.base bundle&#x5148;&#x306E;&#x30D6;&#x30E9;&#x30F3;&#x30C1;&#x540D;
+ * @property {string} [Target.commit_message=&apos;Merge branch {triggered_branch} into {base_branch}&apos;] &#x30DE;&#x30FC;&#x30B8;&#x30B3;&#x30DF;&#x30C3;&#x30C8;&#x6642;&#x306E;&#x30C6;&#x30F3;&#x30D7;&#x30EC;&#x30FC;&#x30C8;
+ * @property {string} [Target.pull_request_title=&apos;{triggered_branch}&apos;] &#x30D7;&#x30EB;&#x30EA;&#x30AF;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;
+ * @property {string} [Target.pull_request_body=&apos;&apos;] &#x30D7;&#x30EB;&#x30EA;&#x30AF;&#x306E;&#x30BF;&#x30A4;&#x30C8;&#x30EB;
+ */
+
+class Helper {
+	constructor(context) {
+		this.context = context;
+	}
+
+	async existsBranch(branchName) {
+		return this.context.github.repos
+			.getBranch(this.context.repo({branch: `bundle/${branchName}`}))
+			.then(() =&gt; true)
+			.catch(() =&gt; false);
+	}
+
+	async getBranch(branchName) {
+		return this.context.github.repos.getBranch(
+			this.context.repo({branch: branchName})
+		);
+	}
+
+	async createBranch(baseBranchName, branchName) {
+		const {data: branch} = await this.getBranch(baseBranchName);
+
+		await this.context.github.gitdata.createReference(
+			this.context.repo({
+				ref: `refs/heads/bundle/${branchName}`,
+				sha: branch.commit.sha
+			})
+		);
+	}
+}
+
+const defaultConfig = {
+	// eslint-disable-next-line camelcase
+	commit_message: &apos;Merge branch {triggered_branch} into {base_branch}&apos;,
+	// eslint-disable-next-line camelcase
+	pull_request_title: &apos;{triggered_branch}&apos;,
+	// eslint-disable-next-line camelcase
+	pull_request_body: &apos;&apos;
+};
+
+/**
+ * This is the entry point for your Probot App.
+ * @param {import(&apos;probot&apos;).Application} app - Probot&apos;s Application class.
+ */
+module.exports = app =&gt; {
+	/**
+   * `push`&#x30A4;&#x30D9;&#x30F3;&#x30C8;&#x304C;`created`&#x3060;&#x3063;&#x305F;&#x6642;&#x306E;&#x307F;
+   *
+   * &#x4F8B;&#x3048;&#x3070;&#x3001;&#x30D6;&#x30E9;&#x30F3;&#x30C1;&#x304C;`foo/bar`&#x3060;&#x3063;&#x305F;&#x6642;&#x3002;
+   * `config.target.foo`&#x304C;&#x5B58;&#x5728;&#x3059;&#x308C;&#x3070;&#x3001;&#x307E;&#x305A;`bundle/foo`&#x304C;&#x306A;&#x3044;&#x304B;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3002;
+   * &#x7121;&#x3051;&#x308C;&#x3070;`bundle/foo`&#x30D6;&#x30E9;&#x30F3;&#x30C1;&#x3092;&#x4F5C;&#x6210;&#x3057;&#x3001;&#x305D;&#x3053;&#x3078;`foo/bar`&#x3092;&#x30DE;&#x30FC;&#x30B8;&#x3059;&#x308B;&#x3002;
+   * &#x3082;&#x3057;&#x3001;`bundle/foo`&#x306E;&#x30D7;&#x30EB;&#x30EA;&#x30AF;&#x304C;&#x306A;&#x3044;&#x5834;&#x5408;&#x306F;&#x3001;&#x30D7;&#x30EB;&#x30EA;&#x30AF;&#x3092;&#x5EFA;&#x3066;&#x308B;&#x3002;
+   */
+	app.on(&apos;push&apos;, async context =&gt; {
+		if (!context.payload.created) {
+			return;
+		}
+
+		const {ref} = context.payload.ref;
+		const bundlingBranchName = ref.replace(&apos;refs/heads/&apos;, &apos;&apos;).split(&apos;/&apos;)[0];
+
+		/**
+     * @type {Config}
+     */
+		const config = await context.config(&apos;akita-inu.yml&apos;, {
+			targets: {}
+		});
+		Object.keys(config.targets).forEach(key =&gt; {
+			config.targets[key] = {...defaultConfig, ...config.targets[key]};
+		});
+
+		if (config.targets[bundlingBranchName] === undefined) {
+			return;
+		}
+		if (config.targets[bundlingBranchName].base === undefined) {
+			app.log.error(`base prop do not exists in the ${bundlingBranchName}`);
+		}
+
+		const helper = new Helper(context);
+
+		const {data: triggeredBranch} = await context.github.repos.getBranch(
+			context.repo({branch: ref})
+		);
+
+		if (!(await helper.existsBranch(bundlingBranchName))) {
+			await helper.createBranch(
+				config.targets[bundlingBranchName].base,
+				bundlingBranchName
+			);
+		}
+		const {data: bundlingBranch} = await helper.getBranch(
+			`bundle/${bundlingBranchName}`
+		);
+
+		if (triggeredBranch.commit.sha !== bundlingBranch.commit.sha) {
+			await context.github.repos.merge(
+				context.repo({
+					base: `refs/heads/${bundlingBranch.name}`,
+					head: triggeredBranch.commit.sha,
+					// eslint-disable-next-line camelcase
+					commit_message: pupa(
+						config.targets[bundlingBranchName].commit_message,
+						{
+							// eslint-disable-next-line camelcase
+							triggered_branch: bundlingBranchName,
+							// eslint-disable-next-line camelcase
+							base_branch: config.targets[bundlingBranchName].base
+						}
+					)
+				})
+			);
+		}
+
+		try {
+			await context.github.pullRequests.create(
+				context.repo({
+					title: pupa(config.targets[bundlingBranchName].pull_request_title, {
+						// eslint-disable-next-line camelcase
+						triggered_branch: config.targets[bundlingBranchName].pull_request_title,
+						// eslint-disable-next-line camelcase
+						base_branch: config.targets[bundlingBranchName].base
+					}),
+					body: config.targets[bundlingBranchName].pull_request_body,
+					head: `refs/heads/${bundlingBranch.name}`,
+					base: `refs/heads/${config.targets[bundlingBranchName].base}`
+				})
+			);
+		} catch (_) {
+			app.log(&apos;pull request was already exists&apos;);
+		}
+	});
+};
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
