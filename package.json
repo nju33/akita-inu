@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "probot": "7.1.0",
-    "pupa": "1.0.0"
+    "pupa": "2.1.1"
   },
   "devDependencies": {
     "esdoc": "1.1.0",
